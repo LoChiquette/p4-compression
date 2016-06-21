@@ -1,0 +1,2 @@
+declare -x P4_COMP="sudo python /home/olivier/Desktop/Workspace/P4_project/p4_workspace/p4c-bmv2/p4c_bm/__main__.py --json test.json --p4-v1.1"
+

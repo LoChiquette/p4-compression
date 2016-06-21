@@ -1,0 +1,4 @@
+- Enumeration
+- Union of fields
+- Dynamicly update table
+- Seperate tables per protocol
