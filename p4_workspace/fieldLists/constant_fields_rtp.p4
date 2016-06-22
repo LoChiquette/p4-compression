@@ -9,12 +9,14 @@
 field_list static_fields_RTPv4 {
 	static_fields_UDPv4;
 	rtp.version;
+	rtp.pad;
 	rtp.SSRC;
 }
 
 field_list static_fields_RTPv6 {
 	static_fields_UDPv6;
 	rtp.version;
+	rtp.pad;
 	rtp.SSRC;
 }
 

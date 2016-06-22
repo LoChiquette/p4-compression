@@ -47,4 +47,18 @@
 #define PROTOCOL_ETH_HSR					0x892F	// High-availability Seamless Redundancy (HSR)
 #define PROTOCOL_ETH_CONFIG_TEST			0x9000 	// Ethernet Configuration Testing Protocol
 
+// TODO: Will diminish in number when the use of the flow information will be accessible
+// Needed for custom compression
+#define PROTOCOL_ETH_UNCOMPRESSED_IPv4		0x9001	// Uncompressed IPv4
+#define PROTOCOL_ETH_UNCOMPRESSED_IPv6		0x9002	// Uncompressed IPv6
+
+#define PROTOCOL_ETH_COMPRESSED_IPv4		0x9003	// Compressed IPv4
+#define PROTOCOL_ETH_COMPRESSED_IPv6		0x9004	// Compressed IPv6
+#define PROTOCOL_ETH_COMPRESSED_TCPv4		0x9005	// Compressed TCP on IPv4
+#define PROTOCOL_ETH_COMPRESSED_TCPv6		0x9006	// Compressed TCP on IPv6
+#define PROTOCOL_ETH_COMPRESSED_UDPv4		0x9007	// Compressed UDP on IPv4
+#define PROTOCOL_ETH_COMPRESSED_UDPv6		0x9008	// Compressed UDP on IPv6
+#define PROTOCOL_ETH_COMPRESSED_RTPv4		0x9009	// Compressed RTP on IPv4
+#define PROTOCOL_ETH_COMPRESSED_RTPv6		0x900A	// Compressed RTP on IPv6
+
 #endif /*PROTOCOLS_ETH_P4*/
