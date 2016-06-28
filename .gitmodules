@@ -5,3 +5,7 @@
 [submodule "p4_workspace/bmv2"]
 	path = p4_workspace/bmv2
 	url = https://github.com/p4lang/behavioral-model.git
+[submodule "p4_workspace/tutorials"]
+	path = p4_workspace/tutorials
+	url = https://github.com/p4lang/tutorials.git
+	branch = p4v1.1
