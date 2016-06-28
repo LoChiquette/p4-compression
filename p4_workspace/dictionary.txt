@@ -47,5 +47,3 @@ usr
 python
 env
 metadata
-decompress
-rtp

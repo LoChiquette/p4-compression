@@ -15,10 +15,7 @@ header_type compression_metadata_t {
         bit<1> flowAccepted;
 
 		// Set if flow entry must be added
-		bit<1> addFlow;  
-		
-		// Set if packet is compressed
-		bit<1> isCompressed;     
+		bit<1> addFlow;       
     }
 }
 
